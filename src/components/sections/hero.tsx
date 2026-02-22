@@ -9,7 +9,7 @@ export function Hero() {
   const words = "Building the future of Bioinformatics through intelligent software.".split(" ");
 
   return (
-    <section className="relative container mx-auto px-4 py-28 md:py-40 flex flex-col items-center justify-center min-h-[80vh]">
+    <section className="relative container mx-auto px-4 pt-16 md:pt-24 pb-28 md:pb-40 flex flex-col items-center justify-center min-h-[80vh]">
       {/* Interactive DNA Helix SVG (Simplified but Aesthetic) */}
       <div className="absolute inset-0 -z-10 flex items-center justify-center opacity-20 pointer-events-none">
         <svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full max-w-[800px] animate-slow-spin">
